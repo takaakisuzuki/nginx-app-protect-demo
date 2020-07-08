@@ -1,0 +1,15 @@
+{
+    "policy": {
+        "name": "signature_exclude",
+        "template": { "name": "POLICY_TEMPLATE_NGINX_BASE" },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "signature-sets": [
+            {
+                "name": "SQL-INJ",
+                "block": false,
+                "alarm": false
+            }
+        ]
+    }
+}	
