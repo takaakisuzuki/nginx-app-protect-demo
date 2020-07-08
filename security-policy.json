@@ -6,14 +6,14 @@
     },
     "applicationLanguage":"utf-8",
     "enforcementMode":"blocking",
-    "signature-sets": [
+    "blocking-settings":{
+        "signature-sets": [
             {
                 "name": "SQL Injection Signatures",
                 "block": false,
                 "alarm": false
             }
-    ],
-    "blocking-settings":{
+        ],
         "violations":[
             {
                 "name":"VIOL_JSON_FORMAT",
