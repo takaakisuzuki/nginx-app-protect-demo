@@ -6,10 +6,20 @@
         "enforcementMode": "blocking",
         "signature-sets": [
             {
-                "name": "SQL-INJ",
-                "block": false,
-                "alarm": false
+                "name": "All Signatures",
+                "block": true,
+                "alarm": true
+            }
+        ],
+        "signatures": [
+            {
+                "signatureId": 200001475,
+                "enabled": false                
+            },
+            {
+                "signatureId": 200000098,
+                "enabled": false
             }
         ]
     }
-}	
+}
